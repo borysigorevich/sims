@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {io} from 'socket.io-client'
 import {atom, useAtom} from 'jotai'
 
-export const socket = io('http://localhost:3001')
+export const socket = io('https://sims-server-eqjk.onrender.com')
 
 type CharactersType = {
     id: string,
