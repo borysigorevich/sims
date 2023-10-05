@@ -3,6 +3,7 @@ import {io} from 'socket.io-client'
 import {atom, useAtom} from 'jotai'
 
 export const socket = io('https://sims-server-eqjk.onrender.com')
+// export const socket = io('http://localhost:3000')
 
 type CharactersType = {
     id: string,
